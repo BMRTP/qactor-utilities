@@ -64,7 +64,7 @@
             this.txbMessage.Location = new System.Drawing.Point(98, 214);
             this.txbMessage.Name = "txbMessage";
             this.txbMessage.Size = new System.Drawing.Size(164, 20);
-            this.txbMessage.TabIndex = 34;
+            this.txbMessage.TabIndex = 30;
             // 
             // label6
             // 
@@ -80,14 +80,14 @@
             this.txbMessageID.Location = new System.Drawing.Point(98, 188);
             this.txbMessageID.Name = "txbMessageID";
             this.txbMessageID.Size = new System.Drawing.Size(164, 20);
-            this.txbMessageID.TabIndex = 32;
+            this.txbMessageID.TabIndex = 29;
             // 
             // txbMit
             // 
             this.txbMit.Location = new System.Drawing.Point(98, 162);
             this.txbMit.Name = "txbMit";
             this.txbMit.Size = new System.Drawing.Size(164, 20);
-            this.txbMit.TabIndex = 29;
+            this.txbMit.TabIndex = 28;
             // 
             // label4
             // 
@@ -139,13 +139,14 @@
             this.lstOutput.Name = "lstOutput";
             this.lstOutput.Size = new System.Drawing.Size(321, 329);
             this.lstOutput.TabIndex = 24;
+            this.lstOutput.TabStop = false;
             // 
             // txbDest
             // 
             this.txbDest.Location = new System.Drawing.Point(98, 136);
             this.txbDest.Name = "txbDest";
             this.txbDest.Size = new System.Drawing.Size(164, 20);
-            this.txbDest.TabIndex = 23;
+            this.txbDest.TabIndex = 27;
             // 
             // label2
             // 
@@ -170,7 +171,7 @@
             this.txbPort.Location = new System.Drawing.Point(79, 38);
             this.txbPort.Name = "txbPort";
             this.txbPort.Size = new System.Drawing.Size(183, 20);
-            this.txbPort.TabIndex = 20;
+            this.txbPort.TabIndex = 2;
             this.txbPort.Text = "8018";
             // 
             // txbIPAddress
@@ -178,7 +179,7 @@
             this.txbIPAddress.Location = new System.Drawing.Point(79, 12);
             this.txbIPAddress.Name = "txbIPAddress";
             this.txbIPAddress.Size = new System.Drawing.Size(183, 20);
-            this.txbIPAddress.TabIndex = 19;
+            this.txbIPAddress.TabIndex = 1;
             this.txbIPAddress.Text = "127.0.0.1";
             // 
             // btnConnect
@@ -186,7 +187,7 @@
             this.btnConnect.Location = new System.Drawing.Point(15, 64);
             this.btnConnect.Name = "btnConnect";
             this.btnConnect.Size = new System.Drawing.Size(247, 23);
-            this.btnConnect.TabIndex = 18;
+            this.btnConnect.TabIndex = 3;
             this.btnConnect.Text = "Connect";
             this.btnConnect.UseVisualStyleBackColor = true;
             this.btnConnect.Click += new System.EventHandler(this.btnConnect_Click);
@@ -196,7 +197,7 @@
             this.btnSend.Location = new System.Drawing.Point(15, 240);
             this.btnSend.Name = "btnSend";
             this.btnSend.Size = new System.Drawing.Size(247, 23);
-            this.btnSend.TabIndex = 37;
+            this.btnSend.TabIndex = 31;
             this.btnSend.Text = "Send";
             this.btnSend.UseVisualStyleBackColor = true;
             this.btnSend.Click += new System.EventHandler(this.btnSend_Click);
@@ -206,7 +207,7 @@
             this.btnSend2.Location = new System.Drawing.Point(12, 318);
             this.btnSend2.Name = "btnSend2";
             this.btnSend2.Size = new System.Drawing.Size(250, 23);
-            this.btnSend2.TabIndex = 38;
+            this.btnSend2.TabIndex = 33;
             this.btnSend2.Text = "Send";
             this.btnSend2.UseVisualStyleBackColor = true;
             this.btnSend2.Click += new System.EventHandler(this.btnSend2_Click);
@@ -226,7 +227,7 @@
             this.cmbMessage.Location = new System.Drawing.Point(12, 291);
             this.cmbMessage.Name = "cmbMessage";
             this.cmbMessage.Size = new System.Drawing.Size(250, 21);
-            this.cmbMessage.TabIndex = 41;
+            this.cmbMessage.TabIndex = 32;
             // 
             // Form1
             // 
